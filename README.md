@@ -1,5 +1,8 @@
 ![alt tag](https://raw.githubusercontent.com/lateralblast/sargo/master/sargo.jpg)
 
+> Diplodus sargus, called White seabream and Sargo, is a species of seabream
+> native to the eastern Atlantic and western Indian Oceans.
+
 SARGO
 ======
 
