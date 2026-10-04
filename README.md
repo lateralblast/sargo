@@ -14,12 +14,22 @@ Informtaion
 Script to process sar data and output CSV or web page and javascript for google
 charts.
 
+Version
+-------
+
+Current version: 0.1.7
+
+See CHANGELOG.md for the release history.
+
 License
 -------
 
-This software is licensed as CC-BA (Creative Commons By Attrbution)
+This software is licensed as CC BY-NC-SA 4.0 (Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International)
 
-http://creativecommons.org/licenses/by/4.0/legalcode
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+See the LICENSE file for the full text.
 
 Usage
 -----
@@ -53,7 +63,7 @@ This output file then can be input into this script using a command like:
 $ sargo.pl -i /tmp/sarout -o /tmp/sarcvs
 ```
 
-This will generate a number of files /tmp/sarcvs_METRIC.cvs
+This will generate a number of files /tmp/sarcvs_METRIC.csv
 METRIC is the the name of the first column pulled from the sar data
 For example /tmp/sarcvs_runq-sz
 An output file will be generated for each disk device.
@@ -66,7 +76,7 @@ Examples
 Process raw sar output from a file:
 
 ```
-$ sargo,pl -i RAW_SAR_INPUT -o CSV_OUTPUT
+$ sargo.pl -i RAW_SAR_INPUT -o CSV_OUTPUT
 ```
 
 Process sar directly:
@@ -74,3 +84,10 @@ Process sar directly:
 ```
 $ sargo.pl -S
 ```
+
+Help Support Development
+------------------------
+
+If you find this software useful and would like to support its development, please consider buying me a coffee:
+
+https://ko-fi.com/richardatlateralblast
